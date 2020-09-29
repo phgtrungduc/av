@@ -1,0 +1,28 @@
+GET http://localhost:8080/user
+##########
+POST http://localhost:8080/create
+content-type: application/json
+
+{
+    "username":"phuongtrungduc",
+    "password":"12367"
+}
+
+###
+POST  http://localhost:8080/login 
+content-type: application/json
+
+{
+    "username":"phuongtrungduc",
+    "password":"123467"
+}
+
+##########
+POST http://localhost:8080/register
+content-type: application/json
+
+{
+    "username":"phuongtrungduc",
+    "password":"123467",
+    "email":admin
+}
